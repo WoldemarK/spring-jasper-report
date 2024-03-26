@@ -36,7 +36,7 @@ public class EmployeeService {
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(employees);
 
         Map<String, Object> parameters = new HashMap<>();
-        parameters.put("createdBy", "Java Techie");
+        parameters.put("", "");
 
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
 
